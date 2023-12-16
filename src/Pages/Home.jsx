@@ -1,3 +1,4 @@
+import BackgroundCanvas from '../BackgroundCanvas';
 import '/src/index.css'
 import { Link, useLocation } from "react-router-dom";
 
@@ -5,6 +6,8 @@ import { Link, useLocation } from "react-router-dom";
 export default function Home() {
     return (
         <div>
+<BackgroundCanvas />
+
         <div>
             <Link to="/informacja">
              Tekst Testowy aka Lorem Ipsum
