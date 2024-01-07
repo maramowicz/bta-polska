@@ -1,5 +1,5 @@
 import '/src/index.css'
-import { Link, useLocation } from "react-router-dom";
+import { Link, } from "react-router-dom";
 
 
 export default function Home() {
@@ -11,14 +11,8 @@ export default function Home() {
              </Link>
 
         </div>
-        {/* Test */}
-        <div>
-        <a href="./src/startserv/starter.html">
-                <p>Uruchom server</p>
-                 </a>
 
 
-        </div>
         
         </div>
             
