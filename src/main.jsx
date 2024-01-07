@@ -5,6 +5,7 @@ import Home from './Pages/Home.jsx'
 import Informacja from './Pages/Informacja.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
+
 const router = createBrowserRouter([
 
 
