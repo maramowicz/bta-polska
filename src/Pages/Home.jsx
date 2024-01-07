@@ -1,23 +1,12 @@
-import BackgroundCanvas from '../BackgroundCanvas';
 import '/src/index.css'
-import { Link, } from "react-router-dom";
+
+import { Header } from "../Components/Header"
 
 
 export default function Home() {
     return (
         <div>
-<BackgroundCanvas />
-
-        <div>
-            <Link to="/informacja">
-             Tekst Testowy aka Lorem Ipsum
-             </Link>
-
+        <Header></Header>
         </div>
-
-
-        
-        </div>
-            
     )
 }
