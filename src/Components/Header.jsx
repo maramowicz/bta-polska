@@ -6,7 +6,7 @@ export function Header() {
     return (
    
             <nav className='navbar'>
-                <img className='logo-navbar' src='./src/assets/BTApl.png'></img>
+                <img className='logo-navbar' src='./src/assets/BTApl.jpg'></img>
                 <ul className='pages-navbar'>
                     <li className='page'>Home </li>
                     <li className='page'>Server</li>
