@@ -1,5 +1,5 @@
 import '/src/index.css'
-import '/src/app.css'
+import '/src/App.css'
 
 
 export function Header() {
