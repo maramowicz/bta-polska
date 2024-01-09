@@ -1,11 +1,15 @@
 import '/src/index.css'
-
 import { Header } from "../Components/Header"
 
 
+
+
 export default function Home() {
+
+
+
     return (
-        <div>
+        <div >
         <Header></Header>
         </div>
     )
