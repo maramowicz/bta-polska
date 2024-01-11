@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
+import './index.scss'
 import Home from './Pages/Home.jsx'
 import Informacja from './Pages/Informacja.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'

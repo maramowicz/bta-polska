@@ -1,6 +1,8 @@
-import '/src/index.css'
+import '/src/index.scss'
 import '/src/App.css'
 import { useState } from 'react';
+import { useEffect } from 'react';
+
 
 
 
@@ -9,14 +11,23 @@ export function Header() {
 
   const [isDark, setIsDark] = useState('true')
 
+  useEffect(() => {
+    const root = document.documentElement;
+  
+    // Sprawdź wartość isDark i ustaw odpowiednią ścieżkę do obrazu tła
+    const backgroundPath = isDark
+      ? "/bta-backgroundDark.png"
+      : "/bta-backgroundLight.png";
+  
+    // Ustaw styl tła dla root elementu
+    root.style.setProperty('--background-image', `url(${backgroundPath})`);
+  }, [isDark]);
+
   const themeSwap = isDark
   ? "/moon.png"
   : "/sun2.jpg";
 
-  const backgroundSwap = isDark
-  ? "/bta-backgroundDark.png"
-  : "/bta-backgroundLight.png"
-  
+ 
 
 
 
