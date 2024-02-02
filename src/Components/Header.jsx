@@ -16,16 +16,16 @@ export function Header() {
   
     // Sprawdź wartość isDark i ustaw odpowiednią ścieżkę do obrazu tła
     const backgroundPath = isDark
-      ? "/bta-backgroundDark.png"
-      : "/bta-backgroundLight.png";
+      ? "/bta-backgroundDark.webp"
+      : "/bta-backgroundLight.webp";
   
     // Ustaw styl tła dla root elementu
     root.style.setProperty('--background-image', `url(${backgroundPath})`);
   }, [isDark]);
 
   const themeSwap = isDark
-  ? "/moon.png"
-  : "/sun2.jpg";
+  ? "/moon.webp"
+  : "/sun2.webp";
 
  
 
@@ -34,7 +34,7 @@ export function Header() {
     return (
    
             <nav className='navbar'>
-                <img className='logo-navbar' src='/BTApl.jpg'></img>
+                <img className='logo-navbar' src='/BTApl.webp'></img>
                 <ul className='pages-navbar'>
                     <li>
                         
