@@ -1,6 +1,7 @@
 
 
 @import url('https://fonts.cdnfonts.com/css/minecrafter-alt');
+@import url('https://fonts.cdnfonts.com/css/minecraftia');
 
 .navbar {
     display: flex;
@@ -11,6 +12,7 @@
     width: 100vw;
     margin: -8px 0px 0px -8px;
     border-radius: 5px;
+    z-index: 10;
  
   
 
@@ -65,4 +67,56 @@
    
 
   }
+
+
+
+
+
+  .knyha {
+    display: flex;
+    position: absolute;
+    height: 950px;
+    width: 1200px;
+
+    margin-left: 300px;
+    image-rendering:pixelated;
   
+  }
+
+  .aboutBTA {
+    display: flex;
+    position: absolute;
+    font-family: minecraftia;
+    font-size: 22.5px;
+    margin-top: 280px;
+    margin-left: 359.5px;
+    color: #222222;
+  }
+
+  .previewVideo {
+    display: flex;
+    position: absolute;
+    margin-left: 960px;
+    margin-top: 300px;
+  }
+
+  .p1title {
+    display: flex;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 359.5px;
+    font-family: minecrafter alt, minecraftia;
+    font-size: 40px;
+    color: #222222;
+  }
+
+  .p1SecondTitle {
+    display: flex;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 985px;
+    font-family: minecrafter alt, minecraftia;
+    font-size: 40px;
+    color: #222222;
+
+  }
