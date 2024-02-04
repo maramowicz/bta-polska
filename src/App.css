@@ -72,16 +72,17 @@
 
 
   .book {
-    margin-left: 2.5rem;
+    margin-left: 2.5vw;
     display: flex;
   }
 
 
   .knyha {
     display: flex;
-    height: 60rem;
-    width: 75rem;
-    margin-left: 18.5rem;
+    height: 100vh;
+    width: 64vw;
+    margin-left: 14vw;
+    margin-bottom: 70rem;
   
     image-rendering:pixelated;
   
@@ -91,36 +92,38 @@
     display: flex;
     position: absolute;
     font-family: minecraftia;
-    font-size: 22.5px;
-    margin-top: 17.5rem;
-    margin-left: 22.5rem;
+    font-size: 1.1vw;
+    margin-top: 30vh;
+    margin-left: 17.5vw;
     color: #222222;
   }
 
   .previewVideo {
     display: flex;
     position: absolute;
-    margin-left: 960px;
-    margin-top: 300px;
+    margin-left: 50vw;
+    margin-top: 32vh;
+    width: 22vw; 
+    height: 30vh;
   }
 
   .p1title {
     display: flex;
     position: absolute;
-    margin-top: 13rem;
-    margin-left: 22.5rem;
+    margin-top: 23vh;
+    margin-left: 17.5vw;
     font-family: minecrafter alt, minecraftia;
-    font-size: 40px;
+    font-size: 2vw;
     color: #222222;
   }
 
   .p1SecondTitle {
     display: flex;
     position: absolute;
-    margin-top: 13rem;
-    margin-left: 61.5rem;
+    margin-top: 23vh;
+    margin-left: 52vw;
     font-family: minecrafter alt, minecraftia;
-    font-size: 40px;
+    font-size: 2vw;
     color: #222222;
 
   }
