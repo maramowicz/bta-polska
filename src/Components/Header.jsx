@@ -16,8 +16,8 @@ export function Header() {
   
     // Sprawdź wartość isDark i ustaw odpowiednią ścieżkę do obrazu tła
     const backgroundPath = isDark
-      ? "/bta-backgroundDark.webp"
-      : "/bta-backgroundLight.webp";
+      ? "/bta-backgroundDark.png"
+      : "/bta-backgroundLight.png";
   
     // Ustaw styl tła dla root elementu
     root.style.setProperty('--background-image', `url(${backgroundPath})`);

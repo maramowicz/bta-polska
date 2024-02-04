@@ -71,14 +71,18 @@
 
 
 
+  .book {
+    margin-left: 2.5rem;
+    display: flex;
+  }
+
 
   .knyha {
     display: flex;
-    position: absolute;
-    height: 950px;
-    width: 1200px;
-
-    margin-left: 300px;
+    height: 60rem;
+    width: 75rem;
+    margin-left: 18.5rem;
+  
     image-rendering:pixelated;
   
   }
@@ -88,8 +92,8 @@
     position: absolute;
     font-family: minecraftia;
     font-size: 22.5px;
-    margin-top: 280px;
-    margin-left: 359.5px;
+    margin-top: 17.5rem;
+    margin-left: 22.5rem;
     color: #222222;
   }
 
@@ -103,8 +107,8 @@
   .p1title {
     display: flex;
     position: absolute;
-    margin-top: 210px;
-    margin-left: 359.5px;
+    margin-top: 13rem;
+    margin-left: 22.5rem;
     font-family: minecrafter alt, minecraftia;
     font-size: 40px;
     color: #222222;
@@ -113,8 +117,8 @@
   .p1SecondTitle {
     display: flex;
     position: absolute;
-    margin-top: 210px;
-    margin-left: 985px;
+    margin-top: 13rem;
+    margin-left: 61.5rem;
     font-family: minecrafter alt, minecraftia;
     font-size: 40px;
     color: #222222;
