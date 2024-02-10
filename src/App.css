@@ -5,10 +5,10 @@
 
 .navbar {
     display: flex;
-    position: relative;
+    
     position: fixed;
     background-color: #171615;
-    height: 90px;
+    height: ;
     width: 100vw;
     margin: -8px 0px 0px -8px;
     border-radius: 5px;
@@ -229,4 +229,47 @@
     height: 4.5vw;
     margin-top: 61.5%;
    
+  }
+
+  .previewImg {
+    display: flex;
+    position: absolute;
+    width: 25vw;
+    height: 40vh;
+    margin-top: 31vh;
+    margin-left: -30vw;
+  }
+
+  .p2title {
+    display: flex;
+    width: 30vw;
+    position: absolute;
+    margin-top: 23vh;
+    margin-left: -60.5vw;
+    font-family: minecrafter alt, minecraftia;
+    font-size: 2vw;
+    color: #222222;
+  }
+
+  .so {
+    display: flex;
+    position: absolute;
+    font-family: minecraftia;
+    font-size: 1vw;
+    margin-top: 30vh;
+    margin-left: -60.5vw;
+    color: #222222;
+    width: 27vw;
+
+  }
+
+  .p2secondTitle {
+    display: flex;
+    width: 30vw;
+    position: absolute;
+    margin-top: 23vh;
+    margin-left: -30vw;
+    font-family: minecrafter alt, minecraftia;
+    font-size: 2vw;
+    color: #222222;
   }

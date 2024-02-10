@@ -53,6 +53,21 @@ export default function Home() {
                 </p>
                 </div>
             <div className={`page2 ${page != 2 ? 'hiddenPage' : ''}`}>
+            <h1 className='p2title'>Wiec...</h1>
+            <p className='so'>jezeli czujesz ze te slowa do ciebie przemowily, 
+            warto chociaz sprobowac samemu czym jest wlasnie BTA!
+            <br />
+            <br /> - buduj niesamowite budowle!
+            <br /> - odkrywaj nowosci i sekrety tej wersji!
+            <br /> - exploruj unikalny swiat i struktury!
+            <br /> - graj samemu albo ze znajomymi!
+            <br /> - graj na naszym Polskim serverze!
+            <br /> - baw sie modami lub texture packami!
+            <br /> 
+            <br /> Na nastepnej stronie znajdziesz wszystkie zrodla i linki do pobrania tego niesamowitego projektu. Baw sie dobrze!
+            </p>
+            <h2 className='p2secondTitle'>Na co czekasz?</h2>
+            <img className='previewImg' src='/preview.png'></img>
                 
             </div>
             <img onClick={PrevPage} src='/arrow.png' className='ArrowLeft'></img>
