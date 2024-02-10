@@ -273,3 +273,29 @@
     font-size: 2vw;
     color: #222222;
   }
+
+  .mobileWarning {
+    display: none;
+  }
+
+  @media screen and (max-width: 860px) { 
+    body {
+      background-image : url("errorImg.png");
+    }
+    .book {
+      display: none;
+    }
+    .navbar {
+      display: none;
+    }
+
+    .mobileWarning {
+      display: grid;
+      font-family:  minecraftia ;
+      text-align: center;
+      color: rgb(216, 216, 27);
+    }
+
+    
+
+  }

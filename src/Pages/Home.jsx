@@ -25,6 +25,15 @@ export default function Home() {
     return (
         <div >
         <Header></Header>
+        <div className='mobileWarning'>
+            <h1 className='warning'>Uwaga!</h1>
+            <p className='warningText'>Mobilna wersja strony nie jest JESZCZE niestety dostepna.
+            <br />Aby wejsc na strone otworz ja na komputerze/laptopie 
+            <br />lub
+            <br />wlacz ustawienie "wersja na komputer" w swojej przegladarce.
+            <br /> za utrudnienia przepraszamy!
+             </p>
+        </div>
         <div className='book'>
             <img className='bookLayout' src='/bookImage.png'></img>
             <div className={`page0 ${page != 0 ? 'hiddenPage' : ''}`}>
