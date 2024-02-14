@@ -29,9 +29,7 @@ export default function Home() {
             <h1 className='warning'>Uwaga!</h1>
             <p className='warningText'>Mobilna wersja strony nie jest JESZCZE niestety dostepna.
             <br />Aby wejsc na strone otworz ja na komputerze/laptopie 
-            <br />lub
-            <br />wlacz ustawienie "wersja na komputer" w swojej przegladarce.
-            <br /> za utrudnienia przepraszamy!
+            <br /> Za utrudnienia przepraszamy!
              </p>
         </div>
         <div className='book'>

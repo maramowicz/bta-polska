@@ -8,7 +8,7 @@
     
     position: fixed;
     background-color: #171615;
-    height: ;
+    height: 90px;
     width: 100vw;
     margin: -8px 0px 0px -8px;
     border-radius: 5px;
@@ -280,7 +280,8 @@
 
   @media screen and (max-width: 860px) { 
     body {
-      background-image : url("errorImg.png");
+      /* background-image : url("errorImg.png"); */
+      z-index: 30;
     }
     .book {
       display: none;
@@ -290,10 +291,16 @@
     }
 
     .mobileWarning {
-      display: grid;
+      padding-top: 3vh;
+      display:block;
       font-family:  minecraftia ;
       text-align: center;
       color: rgb(216, 216, 27);
+      background-image : url("errorImg.png");
+      width: 100vw;
+      height: 98.5vh;
+      margin: -2vw;
+      margin-top: -2.5vh;
     }
 
     
