@@ -33,7 +33,7 @@
     position: relative;
     margin-left: auto;
     margin-right: 10px;
-    font-family: 'Minecrafter alt', sans-serif;
+    font-family: 'Minecrafter alt', minecraftia ;
     font-size: 28px;
     list-style: none;
     padding-top: 6px;
@@ -274,9 +274,94 @@
     color: #222222;
   }
 
+  .p3title {
+    display: flex;
+    width: 30vw;
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: -60.5vw;
+    font-family: minecrafter alt, minecraftia;
+    font-size: 2vw;
+    color: #222222;
+
+  }
+
+  .versionText {
+    display: flex;
+    position: absolute;
+    font-family: minecraftia;
+    font-size: 1vw;
+    margin-top: 30vh;
+    margin-left: -60.5vw;
+    color: #222222;
+    width: 27vw;
+    text-decoration: underline;
+
+  }
+
+  .download {
+    display: flex;
+    position: absolute;
+    font-family: minecraftia;
+    font-size: 1vw;
+    margin-top: 5vh;
+    color: #222222;
+    width: 27vw;
+  }
+
+  .download2 {
+    display: flex;
+    position: absolute;
+    font-family: minecraftia;
+    font-size: 1vw;
+    margin-top: 10vh;
+    color: #222222;
+    width: 27vw;
+  }
+
+  .InstanceDownload {
+    margin-top: 5vh;
+    margin-left: 15vw;
+    color: rgb(83, 83, 207);
+    position: absolute;
+  }
+  
+  .multiMcDownload {
+ 
+    margin-left: 12vw;
+    color: rgb(83, 83, 207);
+    position: absolute;
+  }
+
   .mobileWarning {
     display: none;
   }
+
+  .tutorial {
+   display: flex;
+   position: absolute;
+   font-family: minecraftia;
+   font-size: 1.2vw;
+   margin-top: 43vh;
+   margin-left: -60.5vw;
+   color: #222222;
+
+  }
+
+  .points {
+    list-style: decimal;
+    position: absolute;
+    padding-top:4vh;
+    width: 25vw;
+    
+  }
+
+  
+
+
+
+ 
+
 
   @media screen and (max-width: 860px) { 
     body {
@@ -296,7 +381,7 @@
       font-family:  minecraftia ;
       text-align: center;
       color: rgb(216, 216, 27);
-      background-image : url("errorImg.png");
+      background-color: rgb(29, 19, 9);
       width: 100vw;
       height: 98.5vh;
       margin: -2vw;

@@ -46,7 +46,7 @@ export function Header() {
                     <li className='page'>Home </li>
                     <li className='page'>Server</li>
                     <li className='page'>Wiki</li>
-                    <li className='page'>Wiecej...</li>
+                    <li className='page'>Wiecej</li>
             
                 </ul>
 
