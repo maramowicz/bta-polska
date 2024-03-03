@@ -18,6 +18,11 @@ export default function Home() {
         setPage( (oldPage) => (oldPage > 0 ? oldPage - 1 : oldPage))
     }
 
+
+   
+
+
+
     
 
 
@@ -96,7 +101,7 @@ export default function Home() {
             </div>
             <div className={`page3 ${page != 3 ? 'hiddenPage' : ''}`}>
                 <h1 className='p3title'>Pobierz tutaj </h1>
-                <p className='versionText'> Najnowsza wersja: 1.7.7.0_02
+                <p className='versionText'> Najnowsza (stabilna) wersja: 1.7.7.0_02
           <br /><p className='download'>
                     Instancja BTA MultiMc:</p> <a className='InstanceDownload' href='https://github.com/Better-than-Adventure/bta-download-repo/releases/download/v1.7.7.0_02/1.7.7.0_02.zip'>kliknij tutaj</a>
                 <p className='download2'>
@@ -112,11 +117,14 @@ export default function Home() {
                 <li className='point'>Brawo! ciesz sie rozgrywka.</li>
                 </ul>
                 </div>
+                <h1 className='p3secondTitle'>Community</h1>
+                <img className='discordIcon' src='/discordMc.png'></img>
+                <p className='communityPlText'><a className='plDcLink' href='https://discord.gg/NM8QNhHwHK'>Polski</a> </p>
+                <img className='communityPlLogo' src='BTApl.webp'></img>
 
-                <h1 className='P3secondTitle'>Community</h1>
-
-
-
+                <img className='discordIcon2' src='/discordMc.png'></img>
+                <p className='communityPlText2'><a className='ofDcLink' href='https://discord.gg/jvwD8BKq5e'>Oficjalny</a></p>
+                <img className='communityOFLogo' src='btaLogo.png'></img>
             </div>
             <img onClick={PrevPage} src='/arrow.png' className='ArrowLeft'></img>
             <img onClick={nextPage}  src='/arrow.png' className='ArrowRight'></img>

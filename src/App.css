@@ -356,6 +356,131 @@
     
   }
 
+  .p3secondTitle {
+    display: flex;
+    width: 30vw;
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: -30vw;
+    font-family: minecrafter alt, minecraftia;
+    font-size: 2vw;
+    color: #222222;
+  }
+
+ 
+
+
+
+  .logo-book {
+    height: 70px;
+    margin-top: 33vh;
+    margin-left: -11vw;
+    display: none;
+  }
+
+  .notClicked {
+    width: 5.5vw;
+    height: 10vh;
+    position: absolute;
+    margin-top: 45vh;
+    margin-left: -20vw;
+    transition: margin 0.5s ease-out;
+  }
+
+  .clicked {
+    width: 5.5vw;
+    height: 10vh;
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: -20vw;
+    transition: margin 0.5s ease-out;
+  }
+
+  .clickTextOne {
+    font-size: 4vh;
+    font-family: minecraftia;
+    color: #222222;
+    margin-top: 46vh;
+    margin-left: -27.5vw;
+  }
+
+  .clickTextTwo {
+    display: flex;
+    position: absolute;
+    font-size: 4vh;
+    font-family: minecraftia;
+    color: #222222;
+    margin-top: -10vh;
+    margin-left: -14vw;
+  }
+
+  .hiddenElement {
+    display: none;
+   
+  }
+
+  .communityPlText {
+    display: flex;
+    position: absolute;
+    font-size: 3vh;
+    font-family: minecraftia;
+    color: #222222;
+    margin-top: 37vh;
+    margin-left: -25.5vw;
+  }
+
+  .discordIcon {
+    display: flex;
+    position: absolute;
+    height: 5vh;
+    margin-left: -19vw;
+    margin-top: 37vh;
+
+
+  }
+
+  .communityPlLogo {
+    display: flex;
+    position: absolute;
+    height: 6.5vh;
+    margin-left: -29.7vw;
+    margin-top: 36vh;
+  }
+
+  .discordIcon2 {
+    display: flex;
+    position: absolute;
+    height: 5vh;
+    margin-left: -15.5vw;
+    margin-top: 49vh;
+  }
+
+  .communityPlText2 {
+    display: flex;
+    position: absolute;
+    font-size: 3vh;
+    font-family: minecraftia;
+    color: #222222;
+    margin-top: 48.5vh;
+    margin-left: -25.5vw;
+  }
+
+  .communityOFLogo {
+    display: flex;
+    position: absolute;
+    height: 7vh;
+    margin-left: -30vw;
+    margin-top: 47vh;
+  }
+
+  .plDcLink {
+    color: rgb(83, 83, 207);
+  }
+
+  .ofDcLink {
+    color: rgb(83, 83, 207);;
+  }
+
   
 
 
