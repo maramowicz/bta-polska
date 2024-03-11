@@ -2,6 +2,7 @@ import '/src/index.scss'
 import '/src/App.css'
 import { useState } from 'react';
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -27,8 +28,16 @@ export function Header() {
   ? "/moon.webp"
   : "/sun2.webp";
 
- 
+  const [activePage, setActivePage] = useState(false)
 
+  const activeHome = 
+    activePage == "/" ? "activatedPageStyle" : ""
+
+
+
+    useEffect(() => {
+      setActivePage(location.pathname);
+    }, [location.pathname]);
 
 
     return (
@@ -43,8 +52,8 @@ export function Header() {
 
                         </div>
                     </li>
-                    <li className='page'>Home </li>
-                    <li className='page'>Server</li>
+                    <li onClick={() => setActivePage(true)} className={`page ${activeHome}`}><Link className="routes" to="/">Home</Link> </li>
+                    <li className={`page ${activeHome}`}><Link className="routes" to="/Server">Server</Link></li>
                     <li className='page'>Wiki</li>
                     <li className='page'>Wiecej</li>
             

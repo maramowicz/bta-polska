@@ -43,6 +43,7 @@
   .page {
     padding-right: 40px;
     transition: 0.2s;
+    text-decoration: none ;
   }
 
   .page:hover {
@@ -480,6 +481,140 @@
   .ofDcLink {
     color: rgb(83, 83, 207);;
   }
+
+  .routes {
+    text-decoration: none;
+    color:#C5B6B3; 
+  }
+
+  .activatedPageStyle {
+    color: #288123;
+  }
+
+  .routes:hover {
+    color: #288123; ;
+  }
+
+
+  /* SLIDESHOW */
+
+
+  /* Slideshow container */
+  .slideshow-container {
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: 23vw;
+    border-color:#222222;
+    border-style:solid;
+    border-width: 10px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    margin-left: 20vw;
+   
+  }
+
+
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color:rgb(13, 241, 241);
+    font-size: 20px;
+    font-family: minecraftia;
+    padding: 10px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    margin: 20px;
+    position: absolute;
+    top: 0;
+    font-family: minecraftia;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 78vh 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    z-index: 15;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 0.5s;
+  }
+
+
+
+
+
+/* .signImg {
+  display: flex;
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 16vw;
+  width: 60vw;
+  height: 60vh;
+  image-rendering: pixelated;
+} */
+
+
+
+
+
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+  /* sdds */
 
   
 
