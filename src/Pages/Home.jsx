@@ -105,9 +105,9 @@ export default function Home() {
             </div>
             <div className={`page3 ${page != 3 ? 'hiddenPage' : ''}`}>
                 <h1 className='p3title'>Pobierz tutaj </h1>
-                <p className='versionText'> Najnowsza (stabilna) wersja: 1.7.7.0_02
+                <p className='versionText'> Najnowsza (stabilna) wersja: v7.1
           <br /><p className='download'>
-                    Instancja BTA MultiMc:</p> <a className='InstanceDownload' href='https://github.com/Better-than-Adventure/bta-download-repo/releases/download/v1.7.7.0_02/1.7.7.0_02.zip'>kliknij tutaj</a>
+                    Instancja BTA MultiMc:</p> <a className='InstanceDownload' href='https://github.com/Better-than-Adventure/bta-download-repo/releases/download/v7.1/7.1.zip'>kliknij tutaj</a>
                 <p className='download2'>
                     MultiMc Launcher: <a className='multiMcDownload' href='https://files.multimc.org/downloads/mmc-develop-win32.zip'>kliknij tutaj</a>
                 </p>

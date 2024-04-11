@@ -49,7 +49,7 @@ export function Slideshow() {
                 <div className="mySlides fade">
                     <div className="numbertext">1 / 3</div>
                     <img src="/img1.jpg" style={widthStyle} alt="Slide 1"></img>
-                    <div className="text">Fragment Stolicy</div>
+                    <div className="text">3 Wojowników</div>
                 </div>
 
                 <div className="mySlides fade">
